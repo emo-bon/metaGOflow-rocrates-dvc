@@ -1,0 +1,10 @@
+# poetry
+.venv
+
+# VScode
+.vscode
+
+#Others
+*.swp
+.ruff_cache
+
