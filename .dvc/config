@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = s3://mgf-data-product
+    endpointurl = https://s3.mesocentre.uca.fr
+    profile = "eosc-fairease1"
