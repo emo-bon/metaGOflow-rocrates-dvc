@@ -1,6 +1,7 @@
 [core]
     remote = myremote
+    autostage = true
 ['remote "myremote"']
     url = s3://mgf-data-products
     endpointurl = https://s3.mesocentre.uca.fr
-    profile = "eosc-fairease1"
+    profile = eosc-fairease1
