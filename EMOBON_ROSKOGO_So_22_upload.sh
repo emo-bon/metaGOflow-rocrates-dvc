@@ -49,6 +49,7 @@ dvc add EMOBON_ROSKOGO_So_22/sequence-categorisation/Archaea_SRP.RF01857.fasta.g
 dvc add EMOBON_ROSKOGO_So_22/sequence-categorisation/Metazoa_SRP.RF00017.fasta.gz
 dvc add EMOBON_ROSKOGO_So_22/sequence-categorisation/SSU_rRNA_archaea.RF01959.fa.gz
 
-#dvc commit -m 'Adding EMOBON_ROSKOGO_So_22' 
-#dvc push
+git commit -m 'Adding EMOBON_ROSKOGO_So_22' 
+dvc push
+git push
 
