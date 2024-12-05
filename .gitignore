@@ -8,3 +8,4 @@
 *.swp
 .ruff_cache
 
+*_upload.sh
