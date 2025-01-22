@@ -28,7 +28,7 @@
             "dct:title": "MetaGoFlow data products EMOBON00143 for Sampling Event EMOBON_BPNS_So_34",
             "description": "EMO BON project RO-Crate for the data products from the MetaGOflow analysis of molecular data EMOBON00143 derived from sampling event EMOBON00143",
             "datePublished": "2024-12-17",
-            "licence": {
+            "license": {
                 "@id": "https://creativecommons.org/licenses/by/4.0/"
             },
             "publisher": {
