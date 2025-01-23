@@ -14,7 +14,7 @@
                     "@id": "https://w3id.org/ro/crate/1.1"
                 },
                 {
-                    "@id": "https://github.com/emo-bon/analysis-results-profile"
+                    "@id": "https://data.emobon.embrc.eu/analysis-results-profile/latest/"
                 }
             ],
             "about": {
