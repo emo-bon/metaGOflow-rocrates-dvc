@@ -28,9 +28,9 @@
                 "Dataset",
                 "dcat:Dataset"
             ],
-            "name": "MetaGoFlow data products EMOBON00046 for Sampling Event EMOBON_OSD74_Wa_2",
-            "description": "EMO BON project RO-Crate for the data products from the MetaGOflow analysis of molecular data EMOBON00046 derived from sampling event EMOBON00046",
-            "datePublished": "2025-01-27",
+            "name": "MetaGoFlow metagenomics data products EMOBON00046 for Sampling Event EMOBON_OSD74_Wa_2",
+            "description": "EMO BON project RO-Crate for the data products from the MetaGOflow analysis of molecular data derived from sampling event EMOBON_OSD74_Wa_2",
+            "datePublished": "2025-01-28",
             "license": {
                 "@id": "https://creativecommons.org/licenses/by/4.0/"
             },
@@ -105,7 +105,7 @@
                     "@id": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR139/ERR13954255/DBB_AACQOSDA_1_2_HMNJKDSX3.UDI270_clean.fastq.gz"
                 },
                 {
-                    "@id": "./functional_annotation/"
+                    "@id": "./functional-annotation/"
                 },
                 {
                     "@id": "./sequence-categorisation/"

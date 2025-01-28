@@ -28,9 +28,9 @@
                 "Dataset",
                 "dcat:Dataset"
             ],
-            "name": "MetaGoFlow data products EMOBON00172 for Sampling Event EMOBON_VB_Wa_93",
-            "description": "EMO BON project RO-Crate for the data products from the MetaGOflow analysis of molecular data EMOBON00172 derived from sampling event EMOBON00172",
-            "datePublished": "2025-01-27",
+            "name": "MetaGoFlow metagenomics data products EMOBON00172 for Sampling Event EMOBON_VB_Wa_93",
+            "description": "EMO BON project RO-Crate for the data products from the MetaGOflow analysis of molecular data derived from sampling event EMOBON_VB_Wa_93",
+            "datePublished": "2025-01-28",
             "license": {
                 "@id": "https://creativecommons.org/licenses/by/4.0/"
             },
@@ -105,7 +105,7 @@
                     "@id": "http://localhost/reverse_reads_link"
                 },
                 {
-                    "@id": "./functional_annotation/"
+                    "@id": "./functional-annotation/"
                 },
                 {
                     "@id": "./sequence-categorisation/"
@@ -566,6 +566,7 @@
         {
             "@id": "./sequence-categorisation/SSU_rRNA_bacteria.RF00177.fa.gz",
             "@type": "File",
+            "name": "RNA prediction for SSU_rRNA_bacteria - Rfam accesssion number: RF00177",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/4a/88e5e9f9e6dddcee054c916f7cb4b8",
             "encodingFormat": "application/zip",
             "contentSize": "165888"
@@ -573,6 +574,7 @@
         {
             "@id": "./sequence-categorisation/LSU_rRNA_eukarya.RF02543.fa.gz",
             "@type": "File",
+            "name": "RNA prediction for LSU_rRNA_eukarya - Rfam accesssion number: RF02543",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/ae/61f374fc1d5c3cffd2a83f58ce7b58",
             "encodingFormat": "application/zip",
             "contentSize": "481553"
@@ -580,6 +582,7 @@
         {
             "@id": "./sequence-categorisation/RNaseP_nuc.RF00009.fasta.gz",
             "@type": "File",
+            "name": "RNA prediction for RNaseP_nuc - Rfam accesssion number: RF00009",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/bd/a24a3a95a804fce05646d1837ea42e",
             "encodingFormat": "application/zip",
             "contentSize": "466"
@@ -587,6 +590,7 @@
         {
             "@id": "./sequence-categorisation/Bacteria_small_SRP.RF00169.fasta.gz",
             "@type": "File",
+            "name": "RNA prediction for Bacteria_small_SRP - Rfam accesssion number: RF00169",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/fa/129b93b5ea8273acb4a2d6e0ba3bb6",
             "encodingFormat": "application/zip",
             "contentSize": "823"
@@ -594,6 +598,7 @@
         {
             "@id": "./sequence-categorisation/cyano_tmRNA.RF01851.fasta.gz",
             "@type": "File",
+            "name": "RNA prediction for cyano_tmRNA - Rfam accesssion number: RF01851",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/ae/923c7c346926a817014fc8d57c89a1",
             "encodingFormat": "application/zip",
             "contentSize": "936"
@@ -601,6 +606,7 @@
         {
             "@id": "./sequence-categorisation/tRNA-Sec.RF01852.fasta.gz",
             "@type": "File",
+            "name": "RNA prediction for tRNA-Sec - Rfam accesssion number: RF01852",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/64/627d652f556eeee4e0787e4ac89fdb",
             "encodingFormat": "application/zip",
             "contentSize": "440"
@@ -608,6 +614,7 @@
         {
             "@id": "./sequence-categorisation/LSU_rRNA_bacteria.RF02541.fa.gz",
             "@type": "File",
+            "name": "RNA prediction for LSU_rRNA_bacteria - Rfam accesssion number: RF02541",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/4f/22a24a5d7969ec8d0339d3aa57eb0c",
             "encodingFormat": "application/zip",
             "contentSize": "350452"
@@ -615,6 +622,7 @@
         {
             "@id": "./sequence-categorisation/alpha_tmRNA.RF01849.fasta.gz",
             "@type": "File",
+            "name": "RNA prediction for alpha_tmRNA - Rfam accesssion number: RF01849",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/23/5ec6d8df863ecc2535f38ec115da34",
             "encodingFormat": "application/zip",
             "contentSize": "1935"
@@ -622,6 +630,7 @@
         {
             "@id": "./sequence-categorisation/5_8S.fa.gz",
             "@type": "File",
+            "name": "RNA prediction for 5_8S",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/d9/f164e10fd255d2bee7e99fa75bba25",
             "encodingFormat": "application/zip",
             "contentSize": "15656"
@@ -629,6 +638,7 @@
         {
             "@id": "./sequence-categorisation/RNaseP_bact_a.RF00010.fasta.gz",
             "@type": "File",
+            "name": "RNA prediction for RNaseP_bact_a - Rfam accesssion number: RF00010",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/cc/8e6f816fc9af3a4e0eee9c0f8f3c5e",
             "encodingFormat": "application/zip",
             "contentSize": "2371"
@@ -636,6 +646,7 @@
         {
             "@id": "./sequence-categorisation/LSU_rRNA_archaea.RF02540.fa.gz",
             "@type": "File",
+            "name": "RNA prediction for LSU_rRNA_archaea - Rfam accesssion number: RF02540",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/38/e37d2adbf0e97d51bae61e11d8d6ff",
             "encodingFormat": "application/zip",
             "contentSize": "1181"
@@ -643,6 +654,7 @@
         {
             "@id": "./sequence-categorisation/tmRNA.RF00023.fasta.gz",
             "@type": "File",
+            "name": "RNA prediction for tmRNA - Rfam accesssion number: RF00023",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/b8/a7127c0db7c5893b5d984ee426f0f1",
             "encodingFormat": "application/zip",
             "contentSize": "4577"
@@ -650,6 +662,7 @@
         {
             "@id": "./sequence-categorisation/tRNA.RF00005.fasta.gz",
             "@type": "File",
+            "name": "RNA prediction for tRNA - Rfam accesssion number: RF00005",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/39/048d9adc295334b69b314f7bbff180",
             "encodingFormat": "application/zip",
             "contentSize": "99439"
@@ -657,6 +670,7 @@
         {
             "@id": "./sequence-categorisation/SSU_rRNA_eukarya.RF01960.fa.gz",
             "@type": "File",
+            "name": "RNA prediction for SSU_rRNA_eukarya - Rfam accesssion number: RF01960",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/17/e52d5b7ec7402cdeb4d73dc8b7e67e",
             "encodingFormat": "application/zip",
             "contentSize": "250077"
@@ -664,6 +678,7 @@
         {
             "@id": "./sequence-categorisation/Metazoa_SRP.RF00017.fasta.gz",
             "@type": "File",
+            "name": "RNA prediction for Metazoa_SRP - Rfam accesssion number: RF00017",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/5f/fba0374ae3ccba2a0f7fe29642f838",
             "encodingFormat": "application/zip",
             "contentSize": "394"
@@ -671,6 +686,7 @@
         {
             "@id": "./sequence-categorisation/SSU_rRNA_archaea.RF01959.fa.gz",
             "@type": "File",
+            "name": "RNA prediction for SSU_rRNA_archaea - Rfam accesssion number: RF01959",
             "downloadUrl": "https://s3.mesocentre.uca.fr/mgf-data-products/files/md5/1a/dd0ba58528c535bf2157d370cb19ed",
             "encodingFormat": "application/zip",
             "contentSize": "810"
