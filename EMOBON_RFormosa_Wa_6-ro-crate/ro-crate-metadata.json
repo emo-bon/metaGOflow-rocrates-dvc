@@ -30,7 +30,7 @@
             ],
             "name": "MetaGoFlow metagenomics data products EMOBON00044 for Sampling Event EMOBON_RFormosa_Wa_6",
             "description": "EMO BON project RO-Crate for the data products from the MetaGOflow analysis of molecular data derived from sampling event EMOBON_RFormosa_Wa_6",
-            "datePublished": "2025-01-28",
+            "datePublished": "2025-01-29",
             "license": {
                 "@id": "https://creativecommons.org/licenses/by/4.0/"
             },
@@ -103,6 +103,12 @@
                 },
                 {
                     "@id": "https://ftp.sra.ebi.ac.uk/vol1/run/ERR139/ERR13954641/DBB_AACOOSDA_1_2_HMNJKDSX3.UDI246_clean.fastq.gz"
+                },
+                {
+                    "@id": "https://data.emobon.embrc.eu/sampling/EMOBON_RFormosa_Wa_6"
+                },
+                {
+                    "@id": "https://data.embon.embrc.eu/sequence/EMOBON00044"
                 },
                 {
                     "@id": "./functional-annotation/"

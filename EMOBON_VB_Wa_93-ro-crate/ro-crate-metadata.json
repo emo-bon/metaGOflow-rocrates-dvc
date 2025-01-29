@@ -30,7 +30,7 @@
             ],
             "name": "MetaGoFlow metagenomics data products EMOBON00172 for Sampling Event EMOBON_VB_Wa_93",
             "description": "EMO BON project RO-Crate for the data products from the MetaGOflow analysis of molecular data derived from sampling event EMOBON_VB_Wa_93",
-            "datePublished": "2025-01-28",
+            "datePublished": "2025-01-29",
             "license": {
                 "@id": "https://creativecommons.org/licenses/by/4.0/"
             },
@@ -103,6 +103,12 @@
                 },
                 {
                     "@id": "http://localhost/reverse_reads_link"
+                },
+                {
+                    "@id": "https://data.emobon.embrc.eu/sampling/EMOBON_VB_Wa_93"
+                },
+                {
+                    "@id": "https://data.embon.embrc.eu/sequence/EMOBON00172"
                 },
                 {
                     "@id": "./functional-annotation/"
