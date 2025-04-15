@@ -1,0 +1,5 @@
+outs:
+- md5: cc80fd839168dcb98796b02f6a310492
+  size: 219
+  hash: md5
+  path: DBH_AAACOSDA_1_1_HWLTKDRXY.UDI211_clean.fastq.trimmed.qc_summary
