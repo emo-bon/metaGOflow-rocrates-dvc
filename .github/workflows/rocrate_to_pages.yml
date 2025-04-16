@@ -1,0 +1,27 @@
+name: rocrate-to-pages
+on:
+  push:
+      branches:
+        - main
+  workflow_dispatch:
+
+jobs:
+    runs-on: ubuntu-latest
+    env:
+      ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: rocrate-to-pages
+        uses: vliz-be-opsci/rocrate-to-pages@latest
+        with:
+          multiple_rocrates: true
+          release_management: false
+          include_draft: false
+          index_html: false
+          space_to_pages_homepage: https://data.emobon.embrc.eu
+      - name: actions-gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./unicornpages
