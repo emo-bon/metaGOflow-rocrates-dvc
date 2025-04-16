@@ -1,14 +1,15 @@
 name: rocrate-to-pages
 on:
   push:
-      branches:
-        - main
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
+  rocrate_to_pages_job:
     runs-on: ubuntu-latest
     env:
-      ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/latest
+      ROCRATE_PROFILE_URI: "https://data.emobon.embrc.eu/observatory-profile/latest"
     steps:
       - name: checkout
         uses: actions/checkout@v3
@@ -19,7 +20,7 @@ jobs:
           release_management: false
           include_draft: false
           index_html: false
-          space_to_pages_homepage: https://data.emobon.embrc.eu
+          space_to_pages_homepage: "https://data.emobon.embrc.eu"
       - name: actions-gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
