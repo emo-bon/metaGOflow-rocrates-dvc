@@ -19,7 +19,7 @@ jobs:
           multiple_rocrates: true
           release_management: false
           include_draft: false
-          index_html: false
+          index_html: true
           space_to_pages_homepage: "https://data.emobon.embrc.eu"
       - name: actions-gh-pages
         uses: peaceiris/actions-gh-pages@v3
