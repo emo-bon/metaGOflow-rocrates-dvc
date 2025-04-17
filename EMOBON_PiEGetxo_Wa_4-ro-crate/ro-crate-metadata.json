@@ -29,8 +29,8 @@
                 "dcat:Dataset"
             ],
             "name": "MetaGoFlow metagenomics data products EMOBON00038 for Sampling Event EMOBON_PiEGetxo_Wa_4",
-            "description": "EMO BON project RO-Crate for the data products from the MetaGOflow analysis of molecular data derived from sampling event EMOBON_PiEGetxo_Wa_4",
-            "datePublished": "2025-04-15",
+            "description": "\nThis is a Research Object Crate containing results data from a MetaGOflow\nworkflow analysis of metagenomic data derived from European Marine Omics\nBiodiversity Observation Network (EMO BON) project operated by the European\nMarine Biological Research Centre (EMBRC).\n\nSampling station: Research Centre for Experimental Marine Biology and Biotechnology, Plentzia Marine Station\nSampling country: Spain\nSampling station lat/long: 43.338583:-3.014639\nSampling environment: water_column\nSampling station contact name: Oihane Diaz De Cerio Arruabarrena\nSampling station contact ORCID id: 0000-0002-5605-8434\nSampling station ENA project number: PRJEB51660\n\nEMO BON reference code: EMOBON00038\nEMO BON source material id: EMOBON_PiEGetxo_Wa_4\n\nMetaGOflow run id: HMNJKDSX3.UDI198\n",
+            "datePublished": "2025-04-17",
             "license": {
                 "@id": "https://creativecommons.org/licenses/by/4.0/"
             },
