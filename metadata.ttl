@@ -7,13 +7,7 @@
 <>
     a dcat:Catalog ;
     dc:description "Dataset catalogue for the rocrates in this repository" ;
-    dc:modified "2025-04-17T12:37:41.000"^^xsd:dateTime ;
-    dcat:distribution [
-        a dcat:Distribution ;
-        dcat:accessURL <> ;
-        dcat:downloadURL <metadata.ttl> ;
-        dcat:mediaType "text/turtle" ;
-    ] ;
+    dc:modified "2025-04-17T12:55:03.000"^^xsd:dateTime ;
     dcat:dataset
     
         <EMOBON_RFormosa_Wa_6-ro-crate>,
@@ -35,46 +29,34 @@
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_RFormosa_Wa_6-ro-crate> ; 
-        dcat:downloadURL <EMOBON_RFormosa_Wa_6-ro-crate/rocrate-metadata.json> ; 
-        dcat:mediaType "application/json" ; 
     ] .
 
 <EMOBON_ROSKOGO_So_1-ro-crate> a dcat:Dataset ;
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_ROSKOGO_So_1-ro-crate> ; 
-        dcat:downloadURL <EMOBON_ROSKOGO_So_1-ro-crate/rocrate-metadata.json> ; 
-        dcat:mediaType "application/json" ; 
     ] .
 
 <EMOBON_NRMCB_So_7-ro-crate> a dcat:Dataset ;
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_NRMCB_So_7-ro-crate> ; 
-        dcat:downloadURL <EMOBON_NRMCB_So_7-ro-crate/rocrate-metadata.json> ; 
-        dcat:mediaType "application/json" ; 
     ] .
 
 <EMOBON_OSD74_Wa_2-ro-crate> a dcat:Dataset ;
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_OSD74_Wa_2-ro-crate> ; 
-        dcat:downloadURL <EMOBON_OSD74_Wa_2-ro-crate/rocrate-metadata.json> ; 
-        dcat:mediaType "application/json" ; 
     ] .
 
 <EMOBON_NRMCB_So_1-ro-crate> a dcat:Dataset ;
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_NRMCB_So_1-ro-crate> ; 
-        dcat:downloadURL <EMOBON_NRMCB_So_1-ro-crate/rocrate-metadata.json> ; 
-        dcat:mediaType "application/json" ; 
     ] .
 
 <EMOBON_PiEGetxo_Wa_4-ro-crate> a dcat:Dataset ;
     dcat:distribution [
         a dcat:Distribution ;
         dcat:accessURL <EMOBON_PiEGetxo_Wa_4-ro-crate> ; 
-        dcat:downloadURL <EMOBON_PiEGetxo_Wa_4-ro-crate/rocrate-metadata.json> ; 
-        dcat:mediaType "application/json" ; 
     ] .
