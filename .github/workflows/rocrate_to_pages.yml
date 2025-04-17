@@ -21,6 +21,8 @@ jobs:
           include_draft: false
           index_html: true
           space_to_pages_homepage: "https://data.emobon.embrc.eu"
+          dataset_catalogue: true
+          base_uri: "https://data.emobon.embrc.eu/metaGOflow-rocrates-dvc"
       - name: actions-gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
